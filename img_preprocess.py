@@ -93,8 +93,7 @@ def images_preprocess(directory='data/ISIC-2017_Training_Data/', savedir='data/m
     with open(savedir+"class_weight.txt", "w") as text_file:
         text_file.write("0_Melanoma: {}, 1_Seborreic_ceratosis:{}, 2_Nevus:{}".format(Melanoma_cnt, Seborreic_ceratosis_cnt, Nevus_cnt))
 
-
-'''
+print('''
   /\/\   ___| | __ _ _ __   ___  _ __ ___   __ _  /\ \ \/\ \ \
  /    \ / _ \ |/ _` | '_ \ / _ \| '_ ` _ \ / _` |/  \/ /  \/ /
 / /\/\ \  __/ | (_| | | | | (_) | | | | | | (_| / /\  / /\  /
