@@ -1,6 +1,8 @@
 # Melanoma_Keras
 Melanoma
 
+register here and download data: https://challenge.kitware.com/#phase/5840f53ccad3a51cc66c8dab
+
 Folder structure:
 
 ```
